@@ -61,7 +61,17 @@
 .projects__card-left_desc-btm {
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 30px;
 }
 
 
+@media screen and (max-width:768px) {
+    .projects__card{
+        flex-direction: column;
+        align-items: center;
+    }
+    .projects__card-left_desc-top{
+        align-items: center;
+        text-align: center;
+    }
+}
